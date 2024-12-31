@@ -1,0 +1,8 @@
+apiVersion: stable.example.com/v1
+kind: Shirt
+metadata:
+  name: shirt
+  annotations:
+    helm.sh/resource-policy: keep
+spec:
+  color: "blue"
